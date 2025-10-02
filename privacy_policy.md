@@ -1,0 +1,103 @@
+# プライバシーポリシー / Privacy Policy
+
+以下は Tonight? アプリ【以下、「当サービス」といいます】のプライバシーポリシーです。ユーザーの皆様に安心してご利用いただくために、個人情報等の取り扱いについて定めています。英語版は日本語版の後に記述しています。
+
+## 1. 取得する情報
+
+1. **個人情報**  
+   当サービスでは、ユーザー登録時やお問い合わせ時に、氏名、メールアドレスなどの個人を特定できる情報を取得する場合があります。
+
+2. **利用状況に関する情報**  
+   当サービスは、アクセス日時、操作履歴、利用端末情報、IP アドレスなど、ユーザーがサービスを利用する際に自動的に送信される情報を取得する場合があります。
+
+## 2. 情報の利用目的
+
+取得した情報は、以下の目的のために利用します。
+
+* サービスの提供および改善のため  
+* ユーザーからのお問い合わせへの対応のため  
+* 新機能や重要なお知らせなどのご案内のため  
+* 利用規約違反等の不正利用防止のため  
+* 法令に基づく対応のため
+
+## 3. 情報の第三者提供
+
+取得した個人情報は、以下の場合を除き第三者に提供しません。
+
+* 本人の同意がある場合  
+* 法令に基づく開示要請がある場合  
+* 人の生命・身体または資産の保護のために必要で本人の同意を得ることが難しい場合  
+* 業務委託に伴い必要な範囲で外部業者に提供する場合（委託先は適切に監督します）
+
+## 4. セキュリティ対策
+
+当サービスは、個人情堰への不正アクセス、縫失、破壊、改ざん及び漏えいなどを防止するために必要かつ適切な安全管理措置を放っします。
+
+## 5. ユーザーの権利
+
+ユーザーは、当サービスが保有する自己の個人情報について、開示、証正、追加、削除、利用停止を求めることができます。手続きの詳細は下記お問い合わせ窓口までご連絡ください。
+
+## 6. プライバシーポリシーの変更
+
+本ポリシーの内容は必要に応じて変更することがあります。重大な変更を行う際には、当サービス内または登録されたメールアドレス宐に通知します。
+
+## 7. お問い合わせ窓口
+
+プライバシーポリシーに関するご質問や英慮、其他お問い合わせは下記までご連絡ください。  
+
+**運営者名**：＜企業名／個人名＞  
+**住所**：＜所在地＞  
+**メールアドレス**：＜連絡先メールアドレス＞  
+
+---
+
+## Privacy Policy (English)
+
+This Privacy Policy explains how Tonight? (hereinafter referred to as "the Service", "we", "our" or "us") collects, uses and shares personal information. By using the Service, you agree to the handling of your information in accordance with this policy.
+
+### 1. Information We Collect
+
+1. **Personal information**  
+   We may collect personally identifiable information such as your name and email address when you register an account or contact us.
+
+2. **Usage information**  
+   We may automatically collect information such as access times, user activity logs, device information, and IP addresses when you use the Service.
+
+### 2. Purpose of Use
+
+We use the collected information for the following purposes:
+
+* To provide and improve the Service  
+* To respond to user inquiries  
+* To notify you of new features and important updates  
+* To prevent fraudulent or abusive use of the Service  
+* To comply with legal obligations
+
+### 3. Provision to Third Parties
+
+We do not disclose personal information to third parties except in the following cases:
+
+* With the user’s consent  
+* When required by law  
+* When it is necessary to protect the life, body or property of a person and obtaining the user’s consent is difficult  
+* When outsourcing tasks to a service provider to the extent necessary for business operations (we will appropriately supervise such service providers)
+
+### 4. Security Measures
+
+We implement appropriate security measures to prevent unauthorized access, loss, destruction, alteration, or leakage of personal information.
+
+### 5. User Rights
+
+Users may request disclosure, correction, addition, deletion or suspension of use of their personal information held by us. To exercise these rights, please contact us using the contact details below.
+
+### 6. Changes to This Policy
+
+We may revise this policy as necessary. In the event of significant changes, we will notify you within the Service or via the registered email address.
+
+### 7. Contact Us
+
+For questions or complaints regarding this policy, please contact:
+
+**Operator name**: <Company or Individual Name>  
+**Address**: <Address>  
+**Email**: <Contact email>
