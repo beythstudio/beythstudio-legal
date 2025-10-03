@@ -45,9 +45,9 @@
 
 プライバシーポリシーに関するご質問や英慮、其他お問い合わせは下記までご連絡ください。  
 
-**運営者名**：＜企業名／個人名＞  
-**住所**：＜所在地＞  
-**メールアドレス**：＜連絡先メールアドレス＞  
+**運営者名**：HBN Studio    
+**メールアドレス**：support@hbnstudio.com
+
 
 ---
 
@@ -98,6 +98,5 @@ We may revise this policy as necessary. In the event of significant changes, we 
 
 For questions or complaints regarding this policy, please contact:
 
-**Operator name**: <Company or Individual Name>  
-**Address**: <Address>  
-**Email**: <Contact email>
+**Operator name**:HBN Studio 
+**Email**:support@hbnstudio.com
