@@ -16,10 +16,11 @@
 3. `dart run tool/generate_legal_docs.dart`
 4. 生成物（`assets/legal`, `docs/legal`）をコミット
 
-CI や pre-commit フックを導入する場合は、`dart run tool/generate_legal_docs.dart` を自動で実行し差分が無いことを検証してください。
+### 自動化
+- GitHub Actions `legal-docs-consistency` で `dart run tool/generate_legal_docs.dart` を実行し、差分が残ればジョブを失敗させます。
+- ローカルでも同じチェックを走らせたい場合は `ln -sf ../../scripts/hooks/pre-commit-legal-docs.sh .git/hooks/pre-commit` を設定してください。
 
 ## 開発メモ
 
 - Dart 3.x 系で動作確認済み
 - 依存関係: `yaml`
-

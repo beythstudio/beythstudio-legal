@@ -1,0 +1,38 @@
+name: legal-docs-consistency
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Dart
+        uses: dart-lang/setup-dart@v1
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Regenerate legal documents
+        run: dart run tool/generate_legal_docs.dart
+
+      - name: Ensure generated files are up to date
+        shell: bash
+        run: |
+          if ! git diff --quiet --ignore-submodules --exit-code; then
+            echo '::error::Legal documents are out of date. Run `dart run tool/generate_legal_docs.dart` locally.'
+            git status --short
+            exit 1
+          fi
+          if [[ -n "$(git status --short --untracked-files=all)" ]]; then
+            echo '::error::Legal generator produced untracked files. Commit the generated outputs.'
+            git status --short
+            exit 1
+          fi
