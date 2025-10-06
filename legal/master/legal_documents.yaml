@@ -1,0 +1,395 @@
+documents:
+  - id: account_deletion
+    locales:
+      en: |-
+        # Account Deletion Guide
+        
+        Follow these steps if you wish to leave Tonight?
+        
+        ## 1. In-App Flow
+        1. Open Settings > Account > “Delete account”
+        2. Review the warnings and confirm
+        3. If you are still paired, dissolve the pair first
+        
+        ## 2. Request via Support
+        If the in-app flow is unavailable, email us with:
+        
+        - Registered email address
+        - Device model
+        - Desired deletion date
+        
+        To: support@hbnstudio.com  
+        Subject example: [Tonight?] Account deletion request
+        
+        ## 3. Data We Remove
+        - Tonight? account credentials
+        - Pairing data, Promise Cards, handshake history
+        - Notification tokens and preferences
+        - Data stored on Firebase or other cloud services
+        
+        ## 4. Processing Time
+        We aim to complete the deletion within three business days and will send a confirmation email once finished.
+        
+        ## 5. Subscriptions
+        Cancel any active subscription separately through the App Store or Google Play. Auto-renewal continues until you cancel.
+        
+        ## 6. Rejoining Later
+        You may sign up again after deletion, but past data cannot be restored.
+      ja: |-
+        # アカウント削除ガイド
+        
+        Tonight? から退会する際の流れをご案内します。アプリ内の設定では、以下の手順で進められます。
+        
+        ## 1. アプリからの操作
+        1. 設定 > アカウント > 「アカウントを削除する」を選択
+        2. 表示される注意事項を確認し、確認ボタンをタップ
+        3. ペアに参加している場合は、ペア解除を先に行ってください
+        
+        ## 2. 削除を申請する場合
+        アプリ内で完結できない場合は、以下の情報を添えてサポートまでご連絡ください。
+        
+        - 登録メールアドレス
+        - 端末種別
+        - 退会希望日
+        
+        宛先：support@hbnstudio.com
+        件名例：【Tonight?】アカウント削除希望
+        
+        ## 3. 削除される情報
+        - Tonight? アカウントおよび認証情報
+        - ペアリング情報、Promise Card、ハンドシェイク履歴
+        - 通知トークンや設定項目
+        - Firebase/クラウド上の保存データ
+        
+        ## 4. 削除までの期間
+        通常 3 営業日以内に処理します。完了後、確認メールをお送りします。
+        
+        ## 5. サブスクリプションの解約
+        App Store / Google Play のサブスクリプション管理画面から別途解約してください。解約しない限り自動更新が継続します。
+        
+        ## 6. 再登録
+        削除後もアプリを再インストールして新規登録できますが、過去のデータは復元できません。
+
+  - id: privacy_policy
+    locales:
+      en: |-
+        # Privacy Policy
+        
+        Last updated: 2025-08-25
+        
+        Tonight? ("the Service") is designed as a quiet space for two people to exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
+        
+        ## 1. Information We Collect
+        
+        We gather and process only the data required to provide the Service. Any future changes will be reflected in this document.
+        
+        - Account identifiers (email address, pair ID, authentication tokens)
+        - Pairing details (6-digit codes, mutual confirmation results)
+        - Records related to Tonight? handshakes and Promise Cards
+        - Device context (OS, app version, notification token)
+        - Billing status (plan type, purchase or cancellation status)
+        - Diagnostics (crash reports, aggregated usage analytics)
+        
+        ## 2. How We Use the Information
+        
+        - Delivering and operating the Service
+        - Processing subscriptions and verifying eligibility
+        - Responding to enquiries and providing support
+        - Preventing fraud and protecting security
+        - Complying with legal obligations or governmental requests
+        
+        ## 3. Sharing with Third Parties
+        
+        Details of outbound data flows and third-party processors are documented in the "Outbound Data & Third-Party Sharing Policy." We never sell personal information without consent.
+        
+        ## 4. Retention
+        
+        We store personal data only for as long as needed. When a pair is dissolved, their associated records are deleted. Information that must be retained under law is handled accordingly.
+        
+        ## 5. Your Rights
+        
+        - Access, correct, or delete stored data
+        - Withdraw consent to processing
+        - Opt out from analytics and crash reporting
+        
+        Please contact us via the in-app "Support" entry and we will assist you.
+        
+        ## 6. Security Measures
+        
+        We apply transport encryption, access controls, and log monitoring to keep data safe. If a major incident occurs, we will notify affected users and share remediation steps.
+        
+        ## 7. International Transfers
+        
+        Some infrastructure is hosted outside of your jurisdiction. We ensure the same level of protection by relying on appropriate safeguards and contractual clauses.
+        
+        ## 8. Children’s Privacy
+        
+        The Service targets adults. If a minor’s usage is discovered, contact support for assistance.
+        
+        ## 9. Updates
+        
+        We will announce material updates inside the app and on this page. Significant changes may also be communicated by email or push notification.
+        
+        ## 10. Contact
+        
+        Support mailbox: <support@hbnstudio.com>
+        Telephone: +81-90-6635-5364
+        Office hours: Weekdays 10:00–18:00 JST
+      ja: |-
+        # プライバシーポリシー
+        
+        最終更新日：2025-08-25
+        
+        本ポリシーは Tonight?（以下「本サービス」）における個人情報および利用者情報の取扱いを定めます。ペアとなるお二人が安心して“合図”を交わせるよう、最小限の情報で運用することを前提としています。
+        
+        ## 1. 収集する情報
+        
+        以下の情報を必要な範囲で取得・処理します。実際に利用する項目は最小化し、変更時には本ポリシーを更新します。
+        
+        - アカウント情報（メールアドレス、ペア識別子 等）
+        - ペアリング情報（6桁コード・相互承認結果）
+        - Tonight? ハンドシェイクや Promise Card に関する記録
+        - 端末情報（OS、アプリバージョン、通知トークン 等）
+        - 決済関連情報（プラン種別、購入・解約ステータス）
+        - エラーログや利用状況（クラッシュレポート、アクセス解析）
+        
+        ## 2. 情報の利用目的
+        
+        - 本サービスの提供、維持、改善
+        - 課金および登録状況の確認
+        - 問い合わせ対応、サポートの実行
+        - 不正利用・セキュリティ対策
+        - 法令または行政機関等からの要請への対応
+        
+        ## 3. 第三者への提供
+        
+        利用者情報の外部送信・第三者提供については「利用者情報の外部送信ポリシー」に詳細を記載しています。個人情報を本人の同意なく第三者に販売することはありません。
+        
+        ## 4. 保存期間
+        
+        必要な期間を超えて情報を保有しません。ペア解除時には関連する記録をペア双方から削除します。法令で保存義務がある情報は、定められた期間のみ保管します。
+        
+        ## 5. 利用者の権利
+        
+        - 登録情報の参照・修正・削除
+        - データ処理に対する同意の撤回
+        - 外部送信・分析のオプトアウト
+        
+        アプリ内「サポート/問い合わせ」よりご連絡いただくことで対応します。
+        
+        ## 6. セキュリティ
+        
+        通信経路の暗号化、アクセス制御、ログ監査など適切な安全管理措置を講じます。重大な事故が発生した場合は迅速に通知し、影響範囲の調査と再発防止策を行います。
+        
+        ## 7. 国際移転
+        
+        利用するクラウドサービスは国外にデータを保存する場合があります。その場合も各地域の法令に従い適切に取扱います。
+        
+        ## 8. 子どもの利用
+        
+        Tonight? は成年ユーザーを対象としています。未成年の利用が判明した場合はサポート窓口までご連絡ください。
+        
+        ## 9. 改定
+        
+        本ポリシーを改定する際は、アプリ内および本ページで告知します。重要な変更がある場合は、アプリ内通知やメールでお知らせします。
+        
+        ## 10. お問い合わせ
+        
+        サポート窓口：<support@hbnstudio.com>
+        電話：090-6635-5364
+        受付時間：平日 10:00-18:00（日本時間）
+
+  - id: support
+    locales:
+      en: |-
+        # Support / Contact
+        
+        If you have questions or would like to report an issue with Tonight?, please reach out.
+        
+        - Email: support@hbnstudio.com
+        - Phone: +81-90-6635-5364
+        - Web form: <https://example.com/support> (replace with the official form if available)
+        
+        Including the following details helps us respond quickly:
+        
+        1. Device model (e.g. Pixel 8, iPhone 16)
+        2. App version (see Settings > About)
+        3. Time and steps leading to the issue
+        4. Screenshots or error messages when possible
+        
+        Business hours: Monday–Friday, 10:00–18:00 JST. Messages received outside business hours are handled on the next working day.
+      ja: |-
+        # サポート / お問い合わせ
+        
+        Tonight? に関するご質問や不具合報告は、以下の方法でご連絡ください。
+        
+        - メール：support@hbnstudio.com
+        - 電話：090-6635-5364
+        - フォーム：<https://example.com/support>（※正式なフォームがある場合に差し替え）
+        
+        お問い合わせの際には、以下の情報をご記入いただくとスムーズです。
+        
+        1. ご利用端末（例：Pixel 8 / iOS 18）
+        2. アプリのバージョン（設定 > アプリ情報で確認できます）
+        3. 発生した日時と操作手順
+        4. 表示されたメッセージやスクリーンショット（可能な範囲で）
+        
+        営業時間：平日 10:00〜18:00（日本時間）
+        受付外にいただいたご連絡には翌営業日以降に順次対応します。
+
+  - id: terms_of_service
+    locales:
+      en: |-
+        # Terms of Service
+        
+        Last updated: 25 Aug 2025
+        
+        Please read these terms before using Tonight? They apply to you and your pair partner.
+        
+        ## 1. Scope
+        These Terms govern all use of the Service. We may publish supplemental guidelines; those documents form part of these Terms.
+        
+        ## 2. Registration
+        1. When linking an account, provide accurate and up-to-date information.
+        2. Pairing begins once both parties complete the 6-digit code ritual and simultaneous tap.
+        3. The Service targets adults. If you are under 18, do not use the Service without parental consent.
+        
+        ## 3. Account Security
+        - Keep login credentials (e.g., Google Sign-In) secure.
+        - Contact support immediately if you suspect unauthorized use.
+        
+        ## 4. Prohibited Conduct
+        Do not:
+        
+        1. Break applicable laws or disturb public order
+        2. Harass, coerce, or stalk your partner
+        3. Interfere with the operation of the Service
+        4. Reverse engineer, hack, or tamper with data
+        5. Infringe upon any third party's rights
+        
+        ## 5. Paid Plans and Billing
+        1. The Tonight plan is offered on monthly and yearly cycles subject to the App Store / Google Play billing terms.
+        2. Disclosures regarding price, renewal cycle, auto-renewal, cancellation, and trial conditions are shown before purchase.
+        3. Refund requests follow the policies of each store.
+        
+        ## 6. Pair Dissolution and Data
+        - When either member leaves the pair, records tied to that pair are deleted for both parties.
+        - Re-registering may require a cool-down period.
+        
+        ## 7. Suspension or Termination
+        We may suspend or terminate the Service without notice if:
+        
+        - Maintenance or updates are required
+        - Force majeure (natural disaster, outage, etc.) occurs
+        - Continuing the Service is impractical
+        
+        ## 8. Disclaimer
+        - The Service is not a medical device. Always consult professionals about health concerns.
+        - We are not liable for disputes between users.
+        
+        ## 9. Changes to the Terms
+        We will announce material changes via in-app notice or email. Continued use after the revision constitutes acceptance of the new Terms.
+        
+        ## 10. Governing Law & Jurisdiction
+        These Terms follow the laws of Japan. The Tokyo District Court or Tokyo Summary Court has exclusive jurisdiction for disputes.
+        
+        ## Supplementary Provision
+        Effective date: 25 August 2025
+      ja: |-
+        # 利用規約
+        
+        最終更新日：2025-08-25
+        
+        Tonight? をご利用いただく前に、以下の条件をお読みください。本規約はユーザーおよびペア相手双方に適用されます。
+        
+        ## 第1条（適用）
+        本規約は、本サービスの利用に関する一切の関係に適用されます。私たちは必要に応じて個別規約やガイドラインを定めることがあり、その場合は本規約とあわせて適用されます。
+        
+        ## 第2条（利用登録）
+        1. ゲスト利用後にアカウントを連携する場合は、正確かつ最新の情報をご提供ください。
+        2. 6桁コード・同時タップによるペアリングを完了した時点で、ペアとしての利用が開始されます。
+        3. 未成年の利用は原則お断りしています。やむを得ず利用する場合は保護者の同意を取得してください。
+        
+        ## 第3条（アカウント管理）
+        - Googleアカウント等を用いたログイン情報は適切に管理してください。
+        - 不正アクセスが疑われる場合は、速やかにサポートまでご連絡ください。
+        
+        ## 第4条（禁止事項）
+        ユーザーは以下の行為をしてはいけません。
+        
+        1. 法令または公序良俗に反する行為
+        2. 相手への嫌がらせ、脅迫、無断での追跡につながる行為
+        3. 本サービスの運営を妨害するおそれのある行為
+        4. リバースエンジニアリング、不正アクセス、データ改ざん
+        5. 他者の権利を侵害する行為
+        
+        ## 第5条（有料プラン・課金）
+        1. Tonightプランは月額または年額で提供され、ストアの決済規約に従います。
+        2. 自動更新の有無、解約手続き、無料期間の条件は購入前に表示される案内をご確認ください。
+        3. 返金については各ストア（App Store / Google Play）のルールに従います。
+        
+        ## 第6条（ペア解除とデータ）
+        - いずれかがペア解除した場合、ペアに紐づく記録は双方から削除されます。
+        - 再登録にはクールダウン期間が設けられる場合があります。
+        
+        ## 第7条（サービスの提供停止）
+        次のいずれかに該当する場合、事前通知なくサービス提供を停止または終了することがあります。
+        
+        - システム保守またはアップデート
+        - 天災・停電・通信障害等の不可抗力
+        - サービス継続が困難と判断した場合
+        
+        ## 第8条（免責事項）
+        - 本サービスは医療行為を目的としておりません。健康に関する判断は医療専門家にご相談ください。
+        - 利用者間のトラブルについて、当社は責任を負いません。
+        
+        ## 第9条（規約の変更）
+        重要な変更は、アプリ内通知・メール等で事前に告知します。変更後も利用を継続する場合は、変更後の規約に同意したものとみなします。
+        
+        ## 第10条（準拠法・裁判管轄）
+        本規約は日本法に準拠します。紛争が生じた場合は、東京地方裁判所または簡易裁判所を第一審の専属的合意管轄裁判所とします。
+        
+        ## 付則
+        施行日：2025年8月25日
+
+  - id: tokusho
+    locales:
+      en: |-
+        # Specified Commercial Transactions Act (Japan)
+        
+        Last updated: 25 Aug 2025
+        
+        | Item | Details |
+        | --- | --- |
+        | Merchant | HBN Studio |
+        | Responsible manager | Representative: Takuya Hatanaka |
+        | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
+        | Contact | Email: support@hbnstudio.com / Tel: +81-90-6635-5364 |
+        | Price | Listed inside the app (e.g. ¥360 per month / ¥3,600 per year) |
+        | Additional fees | Network charges or carrier fees paid by the customer |
+        | Payment method | App Store / Google Play billing |
+        | Payment timing | According to each store’s billing rules (charge at purchase, auto-renew onwards) |
+        | Delivery timing | Immediately after the transaction completes |
+        | Cancellation | Manageable anytime through the store’s subscription settings. No prorated refunds; access continues until the current period ends. |
+        | Refund policy | Non-refundable digital service; refund requests follow store policies. |
+        | System requirements | Supported OS versions are listed on the store page. |
+      ja: |-
+        # 特定商取引法に基づく表示
+        
+        最終更新日：2025-08-25
+        
+        | 項目 | 内容 |
+        | --- | --- |
+        | 事業者名 | HBN Studio |
+        | 運営責任者 | 代表　Takuya Hatanaka |
+        | 所在地 | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
+        | 連絡先 | メール：support@hbnstudio.com / 電話：090-6635-5364 |
+        | 販売価格 | アプリ内に表示（例：月額¥360 / 年額¥3,600） |
+        | 代金以外の必要料金 | インターネット接続に伴う通信料等（利用者負担） |
+        | 支払方法 | App Store / Google Play の各決済手段 |
+        | 支払時期 | 各ストアの定める課金タイミング（購入時点、以後自動更新あり） |
+        | 商品の引渡し時期 | 購入手続き完了後、即時に利用可能 |
+        | 解約・キャンセル | 各ストアのサブスクリプション管理からいつでも解約可能。解約しても当該期間終了日までは利用可。途中解約による日割り返金はありません。 |
+        | 返品・返金について | デジタル商品の性質上返品は不可。ストア規約に基づき返金を申請できます。 |
+        | 動作環境 | 対応OS／バージョンをアプリストアに記載 |
+

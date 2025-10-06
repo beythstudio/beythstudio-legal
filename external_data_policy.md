@@ -1,17 +1,8 @@
----
-title: 利用者情報の外部送信ポリシー
----
+# 利用者情報の外部送信ポリシー（移行済み）
 
-# 利用者情報の外部送信ポリシー（第三者提供一覧・目的・オプトアウト方法）
+最新版は自動生成フローで管理されています。
 
-改正電気通信事業法に基づき、アプリ「Tonight?」における利用者情報の外部送信について以下のとおり公表します。Tonight? ではアプリの品質向上や機能提供のため、Firebase 等の第三者サービスを利用しています。
+- 日本語: [docs/legal/ja/privacy-policy.md#3-第三者への提供](docs/legal/ja/privacy-policy.md#3-第三者への提供)
+- English: [docs/legal/en/privacy-policy.md#3-sharing-with-third-parties](docs/legal/en/privacy-policy.md#3-sharing-with-third-parties)
 
-| 提供先事業者／サービス名 | 送信される情報 | 利用目的 | オプトアウト方法 |
-|---|---|---|---|
-| Google LLC / Firebase Analytics | アプリ内イベント、端末情報【OS/モデル/言語】、広告ID/App Instance ID | アプリの利用状況分析、機能改善 | アプリ内設定の「解析データの送信（任意）」をOFFにするー端末の広告IDリセット・追跡制限 |
-| Google LLC / Firebase Crashlytics | クラッシュログ、端末情報、アプリバージョン | 不具合解析・安定性向上 | 同上（解析データ送信をOFF） |
-| Google LLC / Firebase Cloud Messaging | デバイストークン、通知受信イベント | プッシュ通知配信 | OSの通知設定で無効化 |
-| Google LLC / Firebase Remote Config | App Instance ID、利用状況に基づく設定取得 | 機能切换やA/Bテストの実施 | 解析データ送信をOFFにするとA/Bテストから除外（可能な範囲で） |
-| Google LLC / Google Sign-In | Googleアカウント識別子・プロフィール（同意した場合） | 認証・ログイン | Googleアカウントの連携を解除する、アプリを退会する |
-
-情報は暗号化された通信で送信され、上記目的以外には利用されません。今後第三者提供先が追加・変更される場合は、速やかに本ポリシーを更新します。
+`legal/master/legal_documents.yaml` を編集し、`dart run tool/generate_legal_docs.dart` を実行すると各出力が更新されます。

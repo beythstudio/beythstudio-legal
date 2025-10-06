@@ -1,0 +1,124 @@
+{
+  "updated": "2025-10-05",
+  "destinations": [
+    {
+      "id": "firebase_auth",
+      "service": "Firebase Authentication",
+      "provider": "Google LLC",
+      "data_categories": {
+        "ja": ["メールアドレス", "端末識別子", "匿名化された利用者ID"],
+        "en": ["Email address", "Device identifiers", "Anonymised user ID"]
+      },
+      "purpose": {
+        "ja": "アカウント認証、ペア状態の維持、セッション管理",
+        "en": "Authenticate accounts, maintain pair state, and manage sessions"
+      },
+      "opt_out": {
+        "ja": "設定 > アカウント削除 から退会、またはサポートへの削除依頼で停止できます",
+        "en": "Delete the account from Settings or request removal via support"
+      }
+    },
+    {
+      "id": "firebase_firestore",
+      "service": "Firebase Cloud Firestore",
+      "provider": "Google LLC",
+      "data_categories": {
+        "ja": ["ハンドシェイク記録", "Promise Card", "ペア設定"],
+        "en": ["Handshake records", "Promise Cards", "Pair configuration"]
+      },
+      "purpose": {
+        "ja": "ペア共有データとアプリ設定の保存・同期",
+        "en": "Store and sync shared pair data and app preferences"
+      },
+      "opt_out": {
+        "ja": "ペア解除およびアカウント削除でデータが削除されます",
+        "en": "Remove the pair and/or delete the account to erase the data"
+      }
+    },
+    {
+      "id": "firebase_messaging",
+      "service": "Firebase Cloud Messaging",
+      "provider": "Google LLC",
+      "data_categories": {
+        "ja": ["端末トークン", "プッシュ通知配信ステータス"],
+        "en": ["Device push token", "Notification delivery status"]
+      },
+      "purpose": {
+        "ja": "Tonight? の通知送信（1日1回のリマインド等）",
+        "en": "Deliver Tonight? notifications (e.g. daily reminders)"
+      },
+      "opt_out": {
+        "ja": "端末の通知設定で無効化、または設定 > 通知から停止できます",
+        "en": "Disable notifications in OS settings or in-app notification preferences"
+      }
+    },
+    {
+      "id": "firebase_remote_config",
+      "service": "Firebase Remote Config",
+      "provider": "Google LLC",
+      "data_categories": {
+        "ja": ["アプリバージョン", "リモート設定リクエスト情報"],
+        "en": ["App version", "Remote config request metadata"]
+      },
+      "purpose": {
+        "ja": "機能フラグや文言を安全に配信・更新するため",
+        "en": "Provide feature flags and remote settings safely"
+      },
+      "opt_out": {
+        "ja": "アプリを利用しない場合を除き停止できません",
+        "en": "Cannot be disabled without stopping service usage"
+      }
+    },
+    {
+      "id": "firebase_app_check",
+      "service": "Firebase App Check",
+      "provider": "Google LLC",
+      "data_categories": {
+        "ja": ["デバイス認証トークン", "アプリ整合性情報"],
+        "en": ["Device attestation token", "App integrity signals"]
+      },
+      "purpose": {
+        "ja": "不正アクセスやボットからバックエンドを保護するため",
+        "en": "Protect the backend from abuse and automated access"
+      },
+      "opt_out": {
+        "ja": "停止するとセキュリティが維持できないため無効化できません",
+        "en": "Cannot be disabled because it safeguards service security"
+      }
+    },
+    {
+      "id": "store_billing",
+      "service": "App Store / Google Play Billing",
+      "provider": "Apple Inc. / Google LLC",
+      "data_categories": {
+        "ja": ["課金ステータス", "取引ID", "サブスクリプション状態"],
+        "en": ["Billing status", "Transaction ID", "Subscription state"]
+      },
+      "purpose": {
+        "ja": "有料プランの購入、更新、解約手続き",
+        "en": "Handle purchase, renewal, and cancellation of paid plans"
+      },
+      "opt_out": {
+        "ja": "各ストアのサブスクリプション管理から解約できます",
+        "en": "Cancel via the App Store or Google Play subscription settings"
+      }
+    },
+    {
+      "id": "analytics_crash",
+      "service": "Usage analytics & crash reporting",
+      "provider": "Firebase Analytics / Firebase Crashlytics",
+      "data_categories": {
+        "ja": ["利用状況の集計データ", "クラッシュログ"],
+        "en": ["Aggregated usage metrics", "Crash logs"]
+      },
+      "purpose": {
+        "ja": "アプリの品質改善と障害解析",
+        "en": "Improve app quality and diagnose crashes"
+      },
+      "opt_out": {
+        "ja": "設定 > プライバシー設定 で送信をオフにできます",
+        "en": "Toggle off under Settings > Privacy controls"
+      }
+    }
+  ]
+}
