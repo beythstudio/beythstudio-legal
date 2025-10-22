@@ -8,7 +8,7 @@ permalink: /legal/en/support/
 
 If you have questions or would like to report an issue with Tonight?, please reach out.
 
-- Email: support@hbnstudio.com
+- Email: support@beythstudio.com
 - Phone: +81-90-6635-5364
 - Web form: <https://example.com/support> (replace with the official form if available)
 
