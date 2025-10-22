@@ -8,7 +8,7 @@ permalink: /legal/ja/support/
 
 Tonight? に関するご質問や不具合報告は、以下の方法でご連絡ください。
 
-- メール：support@hbnstudio.com
+- メール：support@beythstudio.com
 - 電話：090-6635-5364
 - フォーム：<https://example.com/support>（※正式なフォームがある場合に差し替え）
 
