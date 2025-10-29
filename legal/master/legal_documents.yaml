@@ -14,7 +14,7 @@ documents:
         ## 2. Request via Support
         If the in-app flow is unavailable, email us with:
         
-        - Registered email address
+        - Account identifier (Firebase UID / Tonight ID / pair ID; include email if Google-linked)
         - Device model
         - Desired deletion date
         
@@ -48,7 +48,7 @@ documents:
         ## 2. 削除を申請する場合
         アプリ内で完結できない場合は、以下の情報を添えてサポートまでご連絡ください。
         
-        - 登録メールアドレス
+        - アカウント識別子（Firebase UID / Tonight ID / ペア識別子 など。Google 連携済みの場合はメールアドレスも併記してください）
         - 端末種別
         - 退会希望日
         
@@ -75,15 +75,15 @@ documents:
       en: |-
         # Privacy Policy
         
-        Last updated: 2025-08-25
+        Last updated: 2025-10-29
         
-        Tonight? ("the Service") is designed as a quiet space for two people to exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
+        Tonight? ("the Service") is designed as a quiet space for people such as romantic partners, spouses, roommates, or close friends to share promises and exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
         
         ## 1. Information We Collect
         
         We gather and process only the data required to provide the Service. Any future changes will be reflected in this document.
         
-        - Account identifiers (email address, pair ID, authentication tokens)
+        - Account identifiers (Firebase UID, pair ID, authentication tokens)
         - Pairing details (6-digit codes, mutual confirmation results)
         - Records related to Tonight? handshakes and Promise Cards
         - Device context (OS, app version, notification token)
@@ -124,7 +124,7 @@ documents:
         
         ## 8. Children’s Privacy
         
-        The Service targets adults. If a minor’s usage is discovered, contact support for assistance.
+        The Service can be used by people of all ages. If you are under 18, please consult a parent or guardian when using the Service.
         
         ## 9. Updates
         
@@ -137,15 +137,15 @@ documents:
       ja: |-
         # プライバシーポリシー
         
-        最終更新日：2025-08-25
+        最終更新日：2025-10-29
         
-        本ポリシーは Tonight?（以下「本サービス」）における個人情報および利用者情報の取扱いを定めます。ペアとなるお二人が安心して“合図”を交わせるよう、最小限の情報で運用することを前提としています。
+        本ポリシーは Tonight?（以下「本サービス」）における個人情報および利用者情報の取扱いを定めます。恋人・夫婦・同居パートナー、友達などペアで約束を共有したいすべての人が安心して“合図”を交わせるよう、最小限の情報で運用することを前提としています。
         
         ## 1. 収集する情報
         
         以下の情報を必要な範囲で取得・処理します。実際に利用する項目は最小化し、変更時には本ポリシーを更新します。
         
-        - アカウント情報（メールアドレス、ペア識別子 等）
+        - アカウント識別子（Firebase UID、ペア識別子、認証トークン 等）
         - ペアリング情報（6桁コード・相互承認結果）
         - Tonight? ハンドシェイクや Promise Card に関する記録
         - 端末情報（OS、アプリバージョン、通知トークン 等）
@@ -184,9 +184,9 @@ documents:
         
         利用するクラウドサービスは国外にデータを保存する場合があります。その場合も各地域の法令に従い適切に取扱います。
         
-        ## 8. 子どもの利用
+        ## 8. 子どもの利
         
-        Tonight? は成年ユーザーを対象としています。未成年の利用が判明した場合はサポート窓口までご連絡ください。
+        Tonight? は全年齢でご利用いただけますが、未成年の方は保護者と相談のうえご利用ください。
         
         ## 9. 改定
         
@@ -235,7 +235,7 @@ documents:
       en: |-
         # Terms of Service
         
-        Last updated: 25 Aug 2025
+        Last updated: 29 Oct 2025
         
         Please read these terms before using Tonight? They apply to you and your pair partner.
         
@@ -245,7 +245,7 @@ documents:
         ## 2. Registration
         1. When linking an account, provide accurate and up-to-date information.
         2. Pairing begins once both parties complete the 6-digit code ritual and simultaneous tap.
-        3. The Service targets adults. If you are under 18, do not use the Service without parental consent.
+        3. The Service can be used by people of all ages. If you are under 18, please use the Service with a parent or guardian's guidance.
         
         ## 3. Account Security
         - Keep login credentials (e.g., Google Sign-In) secure.
@@ -291,7 +291,7 @@ documents:
       ja: |-
         # 利用規約
         
-        最終更新日：2025-08-25
+        最終更新日：2025-10-29
         
         Tonight? をご利用いただく前に、以下の条件をお読みください。本規約はユーザーおよびペア相手双方に適用されます。
         
@@ -301,7 +301,7 @@ documents:
         ## 第2条（利用登録）
         1. ゲスト利用後にアカウントを連携する場合は、正確かつ最新の情報をご提供ください。
         2. 6桁コード・同時タップによるペアリングを完了した時点で、ペアとしての利用が開始されます。
-        3. 未成年の利用は原則お断りしています。やむを得ず利用する場合は保護者の同意を取得してください。
+        3. 未成年の方もご利用いただけますが、保護者と相談してご利用ください。
         
         ## 第3条（アカウント管理）
         - Googleアカウント等を用いたログイン情報は適切に管理してください。
@@ -343,14 +343,14 @@ documents:
         本規約は日本法に準拠します。紛争が生じた場合は、東京地方裁判所または簡易裁判所を第一審の専属的合意管轄裁判所とします。
         
         ## 付則
-        施行日：2025年8月25日
+        施行日：2025年10月29日
 
   - id: tokusho
     locales:
       en: |-
         # Specified Commercial Transactions Act (Japan)
         
-        Last updated: 25 Aug 2025
+        Last updated: 29 Oct 2025
         
         | Item | Details |
         | --- | --- |
@@ -369,7 +369,7 @@ documents:
       ja: |-
         # 特定商取引法に基づく表示
         
-        最終更新日：2025-08-25
+        最終更新日：2025-10-29
         
         | 項目 | 内容 |
         | --- | --- |
