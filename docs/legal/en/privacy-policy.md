@@ -63,6 +63,5 @@ We will announce material updates inside the app and on this page. Significant c
 
 ## 10. Contact
 
-Support mailbox: <support@hbnstudio.com>
-Telephone: +81-90-6635-5364
-Office hours: Weekdays 10:00–18:00 JST
+Support mailbox: <support@beythstudio.com>
+We handle all enquiries exclusively via email.

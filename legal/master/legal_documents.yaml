@@ -133,8 +133,7 @@ documents:
         ## 10. Contact
         
         Support mailbox: <support@beythstudio.com>
-        Telephone: +81-90-6635-5364
-        Office hours: Weekdays 10:00–18:00 JST
+        We handle all enquiries exclusively via email.
       ja: |-
         # プライバシーポリシー
         
@@ -196,19 +195,16 @@ documents:
         ## 10. お問い合わせ
         
         サポート窓口：<support@beythstudio.com>
-        電話：090-6635-5364
-        受付時間：平日 10:00-18:00（日本時間）
+        お問い合わせはメールのみで受け付けています。
 
   - id: support
     locales:
       en: |-
         # Support / Contact
         
-        If you have questions or would like to report an issue with Tonight?, please reach out.
-        
+        If you have questions or would like to report an issue with Tonight?, please reach out by email.
+
         - Email: support@beythstudio.com
-        - Phone: +81-90-6635-5364
-        - Web form: <https://example.com/support> (replace with the official form if available)
         
         Including the following details helps us respond quickly:
         
@@ -217,15 +213,13 @@ documents:
         3. Time and steps leading to the issue
         4. Screenshots or error messages when possible
         
-        Business hours: Monday–Friday, 10:00–18:00 JST. Messages received outside business hours are handled on the next working day.
+        We reply as soon as possible; there are no fixed office hours.
       ja: |-
         # サポート / お問い合わせ
         
-        Tonight? に関するご質問や不具合報告は、以下の方法でご連絡ください。
-        
+        Tonight? に関するご質問や不具合報告は、メールでご連絡ください。
+
         - メール：support@beythstudio.com
-        - 電話：090-6635-5364
-        - フォーム：<https://example.com/support>（※正式なフォームがある場合に差し替え）
         
         お問い合わせの際には、以下の情報をご記入いただくとスムーズです。
         
@@ -234,8 +228,7 @@ documents:
         3. 発生した日時と操作手順
         4. 表示されたメッセージやスクリーンショット（可能な範囲で）
         
-        営業時間：平日 10:00〜18:00（日本時間）
-        受付外にいただいたご連絡には翌営業日以降に順次対応します。
+        決まった受付時間は設けていませんが、できる限り早く返信いたします。
 
   - id: terms_of_service
     locales:
@@ -361,10 +354,10 @@ documents:
         
         | Item | Details |
         | --- | --- |
-        | Merchant | HBN Studio |
+        | Merchant | BEYTH STUDIO |
         | Responsible manager | Representative: Takuya Hatanaka |
         | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
-        | Contact | Email: support@beythstudio.com / Tel: +81-90-6635-5364 |
+        | Contact | Email: support@beythstudio.com (support is handled by email only) |
         | Price | Listed inside the app (e.g. ¥360 per month / ¥3,600 per year) |
         | Additional fees | Network charges or carrier fees paid by the customer |
         | Payment method | App Store / Google Play billing |
@@ -380,10 +373,10 @@ documents:
         
         | 項目 | 内容 |
         | --- | --- |
-        | 事業者名 | HBN Studio |
+        | 事業者名 | BEYTH STUDIO |
         | 運営責任者 | 代表　Takuya Hatanaka |
         | 所在地 | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
-        | 連絡先 | メール：support@beythstudio.com / 電話：090-6635-5364 |
+        | 連絡先 | メール：support@beythstudio.com（メールのみで対応しています） |
         | 販売価格 | アプリ内に表示（例：月額¥360 / 年額¥3,600） |
         | 代金以外の必要料金 | インターネット接続に伴う通信料等（利用者負担） |
         | 支払方法 | App Store / Google Play の各決済手段 |

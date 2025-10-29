@@ -4,10 +4,10 @@ Last updated: 25 Aug 2025
 
 | Item | Details |
 | --- | --- |
-| Merchant | HBN Studio |
+| Merchant | BEYTH STUDIO |
 | Responsible manager | Representative: Takuya Hatanaka |
 | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
-| Contact | Email: support@hbnstudio.com / Tel: +81-90-6635-5364 |
+| Contact | Email: support@beythstudio.com (support is handled by email only) |
 | Price | Listed inside the app (e.g. ¥360 per month / ¥3,600 per year) |
 | Additional fees | Network charges or carrier fees paid by the customer |
 | Payment method | App Store / Google Play billing |

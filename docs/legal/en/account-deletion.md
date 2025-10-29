@@ -20,7 +20,7 @@ If the in-app flow is unavailable, email us with:
 - Device model
 - Desired deletion date
 
-To: support@hbnstudio.com  
+To: support@beythstudio.com  
 Subject example: [Tonight?] Account deletion request
 
 ## 3. Data We Remove

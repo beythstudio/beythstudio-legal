@@ -6,11 +6,9 @@ permalink: /legal/en/support/
 ---
 # Support / Contact
 
-If you have questions or would like to report an issue with Tonight?, please reach out.
+If you have questions or would like to report an issue with Tonight?, please reach out by email.
 
 - Email: support@beythstudio.com
-- Phone: +81-90-6635-5364
-- Web form: <https://example.com/support> (replace with the official form if available)
 
 Including the following details helps us respond quickly:
 
@@ -19,4 +17,4 @@ Including the following details helps us respond quickly:
 3. Time and steps leading to the issue
 4. Screenshots or error messages when possible
 
-Business hours: Monday–Friday, 10:00–18:00 JST. Messages received outside business hours are handled on the next working day.
+We reply as soon as possible; there are no fixed office hours.
