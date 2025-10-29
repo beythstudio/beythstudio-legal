@@ -10,10 +10,10 @@ permalink: /legal/ja/tokusho/
 
 | 項目 | 内容 |
 | --- | --- |
-| 事業者名 | HBN Studio |
+| 事業者名 | BEYTH STUDIO |
 | 運営責任者 | 代表　Takuya Hatanaka |
 | 所在地 | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
-| 連絡先 | メール：support@hbnstudio.com / 電話：090-6635-5364 |
+| 連絡先 | メール：support@beythstudio.com（メールのみで対応しています） |
 | 販売価格 | アプリ内に表示（例：月額¥360 / 年額¥3,600） |
 | 代金以外の必要料金 | インターネット接続に伴う通信料等（利用者負担） |
 | 支払方法 | App Store / Google Play の各決済手段 |

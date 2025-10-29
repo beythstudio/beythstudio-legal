@@ -14,7 +14,7 @@ Tonight? から退会する際の流れをご案内します。アプリ内の�
 - 端末種別
 - 退会希望日
 
-宛先：support@hbnstudio.com
+宛先：support@beythstudio.com
 件名例：【Tonight?】アカウント削除希望
 
 ## 3. 削除される情報
