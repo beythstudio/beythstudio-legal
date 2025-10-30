@@ -1,6 +1,6 @@
 # Specified Commercial Transactions Act (Japan)
 
-Last updated: 25 Aug 2025
+Last updated: 29 Oct 2025
 
 | Item | Details |
 | --- | --- |
