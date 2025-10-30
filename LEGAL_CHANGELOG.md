@@ -1,3 +1,6 @@
+## 2025-10-30
+- 連絡先メールアドレスを support@beythstudio.com に統一
+- Unified contact email address to support@beythstudio.com
 ## 2025-10-29
 - Tonight: 対象ユーザーを友達など“ペアで約束を共有したいすべての人”へ拡大
 - 収集情報の冒頭を UID ベースのアカウント識別子へ変更
