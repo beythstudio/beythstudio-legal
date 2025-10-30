@@ -10,7 +10,7 @@ Follow these steps if you wish to leave Tonight?
 ## 2. Request via Support
 If the in-app flow is unavailable, email us with:
 
-- Registered email address
+- Account identifier (Firebase UID / Tonight ID / pair ID; include email if Google-linked)
 - Device model
 - Desired deletion date
 

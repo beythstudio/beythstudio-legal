@@ -1,14 +1,14 @@
 # Privacy Policy
 
-Last updated: 2025-08-25
+Last updated: 2025-10-29
 
-Tonight? ("the Service") is designed as a quiet space for two people to exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
+Tonight? ("the Service") is designed as a quiet space for people such as romantic partners, spouses, roommates, or close friends to share promises and exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
 
 ## 1. Information We Collect
 
 We gather and process only the data required to provide the Service. Any future changes will be reflected in this document.
 
-- Account identifiers (email address, pair ID, authentication tokens)
+- Account identifiers (Firebase UID, pair ID, authentication tokens)
 - Pairing details (6-digit codes, mutual confirmation results)
 - Records related to Tonight? handshakes and Promise Cards
 - Device context (OS, app version, notification token)
@@ -49,7 +49,7 @@ Some infrastructure is hosted outside of your jurisdiction. We ensure the same l
 
 ## 8. Children’s Privacy
 
-The Service targets adults. If a minor’s usage is discovered, contact support for assistance.
+The Service can be used by people of all ages. If you are under 18, please consult a parent or guardian when using the Service.
 
 ## 9. Updates
 

@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: 25 Aug 2025
+Last updated: 29 Oct 2025
 
 Please read these terms before using Tonight? They apply to you and your pair partner.
 
@@ -10,7 +10,7 @@ These Terms govern all use of the Service. We may publish supplemental guideline
 ## 2. Registration
 1. When linking an account, provide accurate and up-to-date information.
 2. Pairing begins once both parties complete the 6-digit code ritual and simultaneous tap.
-3. The Service targets adults. If you are under 18, do not use the Service without parental consent.
+3. The Service can be used by people of all ages. If you are under 18, please use the Service with a parent or guardian's guidance.
 
 ## 3. Account Security
 - Keep login credentials (e.g., Google Sign-In) secure.
