@@ -230,6 +230,65 @@ documents:
         
         決まった受付時間は設けていませんが、できる限り早く返信いたします。
 
+  - id: support_portal
+    locales:
+      en: |-
+        # Contact Desk / Support Hub
+        
+        This page explains how to reach Beyth Studio for any of our consumer apps or services.
+        
+        ## Primary channel
+        - Email: support@beythstudio.com
+        - Support hours: Weekdays 10:00–18:00 (JST), excluding weekends, national holidays, and year-end/New Year closures
+        
+        We typically respond within two business days. Please include the following to help us investigate:
+        
+        1. Product name (Tonight?, etc.)
+        2. App version / build number
+        3. Device model and OS version
+        4. Time and steps that lead to the issue
+        5. Screenshots, logs, or crash identifiers if available
+        
+        ## Special topics
+        - **Security or vulnerability reports**: Email `security@beythstudio.com`. Share reproduction steps, impacted components, and any temporary mitigations. We acknowledge within 48 hours.
+        - **Legal / compliance requests**: Email `support@beythstudio.com` with subject `[Legal]`. Include the requesting party, legal basis, deadline, and your preferred contact information.
+        - **Press / partnership enquiries**: Email `support@beythstudio.com` with subject `[Press]`, and note your organisation, proposal outline, and preferred contact window.
+        
+        ## Product-specific resources
+        | Product | Support guide (JA) | Support guide (EN) |
+        | --- | --- | --- |
+        | Tonight? | [/legal/ja/support/](/legal/ja/support/) | [/legal/en/support/](/legal/en/support/) |
+        
+        Additional products will be listed here as they launch. If you cannot find the resource you need, reach us via the primary channel with as much context as possible.
+      ja: |-
+        # 問い合わせ窓口（サポートハブ）
+        
+        Beyth Studio が提供するアプリやサービス全般へのお問い合わせはこちらをご確認ください。
+        
+        ## 基本コンタクト
+        - メール：support@beythstudio.com
+        - 対応時間：平日 10:00〜18:00（JST、土日祝・年末年始を除く）
+        
+        原則として 2 営業日以内の返信を目指しています。以下の情報を添えていただけるとスムーズです。
+        
+        1. プロダクト名（例：Tonight? など）
+        2. アプリのバージョン / ビルド番号
+        3. ご利用端末・OS バージョン
+        4. 発生手順と日時
+        5. スクリーンショットやログ（可能な範囲で）
+        
+        ## トピック別の連絡先
+        - **セキュリティインシデント報告**：`security@beythstudio.com` までメールでお送りください。再現手順や影響範囲、暫定対応策などを記載いただけると助かります。48 時間以内に受領連絡を差し上げます。
+        - **法務・データ開示依頼**：件名を `[Legal]` として `support@beythstudio.com` へ送信してください。依頼主体、根拠法令、回答期限、折り返し先を明記ください。
+        - **メディア・パートナーシップ**：件名を `[Press]` として `support@beythstudio.com` へ送信ください。御社名、企画概要、希望する連絡方法・時間帯を添えてください。
+        
+        ## プロダクト別ガイド
+        | プロダクト | サポートガイド（日本語） | Support guide (English) |
+        | --- | --- | --- |
+        | Tonight? | [/legal/ja/support/](/legal/ja/support/) | [/legal/en/support/](/legal/en/support/) |
+        
+        新しいプロダクトを公開した際は随時追記します。該当のガイドが見当たらない場合は、上記の基本コンタクト宛に詳細を添えてご連絡ください。
+
   - id: terms_of_service
     locales:
       en: |-
@@ -385,4 +444,3 @@ documents:
         | 解約・キャンセル | 各ストアのサブスクリプション管理からいつでも解約可能。解約しても当該期間終了日までは利用可。途中解約による日割り返金はありません。 |
         | 返品・返金について | デジタル商品の性質上返品は不可。ストア規約に基づき返金を申請できます。 |
         | 動作環境 | 対応OS／バージョンをアプリストアに記載 |
-
