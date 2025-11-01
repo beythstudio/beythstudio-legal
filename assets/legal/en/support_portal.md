@@ -15,7 +15,7 @@ We typically respond within two business days. Please include the following to h
 5. Screenshots, logs, or crash identifiers if available
 
 ## Special topics
-- **Security or vulnerability reports**: Email `security@beythstudio.com`. Share reproduction steps, impacted components, and any temporary mitigations. We acknowledge within 48 hours.
+- **Security or vulnerability reports**: Email `support@beythstudio.com` with subject `[Security]`. Share reproduction steps, impacted components, and any temporary mitigations. We acknowledge within 48 hours.
 - **Legal / compliance requests**: Email `support@beythstudio.com` with subject `[Legal]`. Include the requesting party, legal basis, deadline, and your preferred contact information.
 - **Press / partnership enquiries**: Email `support@beythstudio.com` with subject `[Press]`, and note your organisation, proposal outline, and preferred contact window.
 
