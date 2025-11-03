@@ -32,11 +32,15 @@
       <a href="/legal/ja/outbound-data/">日本語</a> /
       <a href="/legal/en/outbound-data/">English</a>
     </p>
+    <!-- 外部送信マップの静的フォールバック -->
+    <div>
+      <!-- このファイルはJS無効時にのみ意味があります。ビルドで差し込む運用も可 -->
+    </div>
   </noscript>
   <main id="viewport" aria-live="polite"></main>
   <script type="module" src="../_shared/_router.js"></script>
   <script type="module">
-    import { bootHudEnhancements } from '..//_shared/hud.js';
+    import { bootHudEnhancements } from '../_shared/hud.js';
     import '../_shared/external.js';
     import { applyDiffHighlight } from '../_shared/diff.js';
     bootHudEnhancements();
