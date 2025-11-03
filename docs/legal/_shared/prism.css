@@ -1,0 +1,4 @@
+.external-data-map{ border:1px solid var(--prism-border); padding: 8px; margin: 16px 0; }
+.external-data-map details{ margin: 8px 0; }
+.external-data-map summary{ font-weight:600; }
+.prism-diff{ background: #fff6bf; outline: 2px solid #ffec99; }
