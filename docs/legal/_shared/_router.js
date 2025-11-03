@@ -17,6 +17,25 @@ const slug = currentSlug();
 const src = (lang) => `/legal/${lang}/${slug}/index.html`;
 const $viewport = document.getElementById('viewport');
 
+async function tryLegacy(){
+  const map = {
+    'privacy': '/privacy/tonight/',
+    'terms': '/terms/tonight/',
+    'tokusho': '/tokusho/tonight/',
+    'outbound-data': '/external-data-policy/tonight/'
+  };
+  const path = map[slug];
+  if (!path) return null;
+  try{
+    const r = await fetch(path, { credentials: 'same-origin' });
+    if (!r.ok) return null;
+    const html = await r.text();
+    const tpl = document.createElement('template'); tpl.innerHTML = html;
+    const article = tpl.content.querySelector('article,[data-prism-article]');
+    return article || tpl.content;
+  }catch(e){ return null; }
+}
+
 async function loadDoc(lang) {
   try {
     const res = await fetch(src(lang), { credentials: 'same-origin' });
@@ -27,6 +46,8 @@ async function loadDoc(lang) {
     const article = tpl.content.querySelector('article,[data-prism-article]');
     return article || tpl.content;
   } catch (e) {
+    const legacy = await tryLegacy();
+    if (legacy) return legacy;
     const wrap = document.createElement('section');
     wrap.innerHTML = `<p>Failed to load localized content. Open legacy pages: 
       <a href="/${slug}/tonight/">${slug}/tonight</a>
