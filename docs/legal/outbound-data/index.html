@@ -35,6 +35,13 @@
   </noscript>
   <main id="viewport" aria-live="polite"></main>
   <script type="module" src="../_shared/_router.js"></script>
-  <script type="module">import { bootHudEnhancements } from '../_shared/hud.js'; bootHudEnhancements();</script>
+  <script type="module">
+    import { bootHudEnhancements } from '..//_shared/hud.js';
+    import '../_shared/external.js';
+    import { applyDiffHighlight } from '../_shared/diff.js';
+    bootHudEnhancements();
+    const v = new URLSearchParams(location.search).get('v') || 'latest';
+    applyDiffHighlight('outbound-data', v);
+  </script>
 </body>
 </html>
