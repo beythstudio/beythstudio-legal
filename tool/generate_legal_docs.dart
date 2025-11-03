@@ -2,6 +2,13 @@ import 'dart:io';
 
 import 'package:yaml/yaml.dart';
 
+const Map<String, String> _canonicalRedirects = <String, String>{
+  'privacy': 'en',
+  'terms': 'en',
+  'tokusho': 'ja',
+  'outbound-data': 'en',
+};
+
 /// Generates legal documents for Flutter assets and GitHub Pages from a
 /// single master YAML source located at `legal/master/legal_documents.yaml`.
 void main(List<String> args) {
@@ -40,9 +47,13 @@ void main(List<String> args) {
     }
   }
 
+  final redirectCount = _generateCanonicalRedirects();
   stdout.writeln(
     'Generated $generatedCount files from ${documents.length} master documents.',
   );
+  if (redirectCount > 0) {
+    stdout.writeln('Generated $redirectCount canonical redirect pages.');
+  }
 }
 
 void _writeFlutterAsset(String id, String locale, String body) {
@@ -70,6 +81,30 @@ void _writeDocsPage(String id, String slug, String locale, String body) {
   final normalizedBody = _ensureTerminalNewline(body);
   final content = '${frontMatter.join('\n')}$normalizedBody';
   output.writeAsStringSync(content);
+}
+
+int _generateCanonicalRedirects() {
+  final templateFile = File('tool/templates/redirect_template.html');
+  if (!templateFile.existsSync()) {
+    stderr.writeln(
+      'Redirect template not found at ${templateFile.path}. Skipping canonical redirects.',
+    );
+    return 0;
+  }
+  final template = templateFile.readAsStringSync();
+  var count = 0;
+  for (final entry in _canonicalRedirects.entries) {
+    final slug = entry.key;
+    final defaultLang = entry.value;
+    final html = template
+        .replaceAll('@@SLUG@@', slug)
+        .replaceAll('@@DEFAULT_LANG@@', defaultLang);
+    final output = File('docs/legal/$slug/index.html');
+    output.parent.createSync(recursive: true);
+    output.writeAsStringSync(_ensureTerminalNewline(html));
+    count++;
+  }
+  return count;
 }
 
 String? _extractTitle(String body) {
