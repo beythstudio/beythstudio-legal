@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "id": "firebase-analytics",
+      "provider": "Google LLC",
+      "purpose": "usage analytics",
+      "triggers": ["app_start", "screen_view"],
+      "data": ["app_instance_id", "device_info", "event"],
+      "optout": "settings.analytics=false"
+    },
+    {
+      "id": "admob",
+      "provider": "Google LLC",
+      "purpose": "ads delivery & measurement",
+      "triggers": ["ad_request"],
+      "data": ["adid", "device_info", "ad_unit"],
+      "optout": "consent, limit-ad-tracking"
+    }
+  ]
+}

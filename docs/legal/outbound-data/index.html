@@ -2,12 +2,50 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>Redirecting…</title>
-  <meta http-equiv="refresh" content="0; url=/external-data-policy/tonight/">
-  <link rel="canonical" href="https://policies.beythstudio.com/external-data-policy/tonight/">
+  <title>External Data Policy | Legal Prism</title>
   <meta name="robots" content="noindex,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../_shared/prism.css" rel="stylesheet">
+  <link rel="alternate" hreflang="ja" href="/legal/ja/outbound-data/">
+  <link rel="alternate" hreflang="en" href="/legal/en/outbound-data/">
+  <link rel="alternate" hreflang="x-default" href="/legal/outbound-data/">
 </head>
 <body>
-  <p>Redirecting to <a href="/external-data-policy/tonight/">/external-data-policy/tonight/</a>…</p>
+  <nav class="prism-hud" aria-label="Policy HUD">
+    <span class="app">Tonight</span>
+    <div class="seg">
+      <button data-mode="plain">Plain</button>
+      <button data-mode="legal" aria-pressed="true">Legal</button>
+      <button data-mode="compare">Compare</button>
+    </div>
+    <div class="seg">
+      <button data-hl="ja" aria-pressed="true">日本語</button>
+      <button data-hl="en">English</button>
+    </div>
+    <div class="seg">
+      <label>Version</label>
+      <select id="ver"></select>
+    </div>
+  </nav>
+  <noscript>
+    <p>JavaScriptが無効です。言語を選んでください：
+      <a href="/legal/ja/outbound-data/">日本語</a> /
+      <a href="/legal/en/outbound-data/">English</a>
+    </p>
+    <!-- 外部送信マップの静的フォールバック -->
+    <div>
+      <!-- このファイルはJS無効時にのみ意味があります。ビルドで差し込む運用も可 -->
+    </div>
+  </noscript>
+  <main id="viewport" aria-live="polite"></main>
+  <script type="module" src="../_shared/_router.js"></script>
+  <script type="module">
+    import { bootHudEnhancements } from '../_shared/hud.js';
+    import '../_shared/external.js';
+    import { applyDiffHighlight } from '../_shared/diff.js';
+    bootHudEnhancements();
+    const v = new URLSearchParams(location.search).get('v') || 'latest';
+    applyDiffHighlight('outbound-data', v);
+  </script>
 </body>
 </html>
