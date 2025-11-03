@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <link rel="alternate" hreflang="ja" href="/legal/ja/tokusho/" />
+  <link rel="alternate" hreflang="en" href="/legal/en/tokusho/" />
+  <link rel="canonical" href="/legal/tokusho/" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      padding: 24px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <p>Redirecting to the appropriate language…</p>
+  <noscript>
+    <p>JavaScript is disabled. Open:
+      <a href="/legal/ja/tokusho/">日本語</a> /
+      <a href="/legal/en/tokusho/">English</a>
+    </p>
+  </noscript>
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var hl = (params.get('hl') || '').toLowerCase();
+      var languages = (navigator.languages || [navigator.language || '']).map(function (code) {
+        return (code || '').toLowerCase();
+      });
+
+      function pickLanguage(preferred, fallback) {
+        if (preferred.indexOf('ja') === 0) return 'ja';
+        if (preferred.indexOf('en') === 0) return 'en';
+        var detected = '';
+        for (var i = 0; i < languages.length; i += 1) {
+          var code = languages[i];
+          if (code.indexOf('ja') === 0) {
+            detected = 'ja';
+            break;
+          }
+          if (!detected && code.indexOf('en') === 0) {
+            detected = 'en';
+          }
+        }
+        return detected || fallback;
+      }
+
+      var slug = 'tokusho';
+      var defaultLang = 'ja';
+      var resolved = pickLanguage(hl, defaultLang);
+      var target = '/legal/' + resolved + '/' + slug + '/';
+      if (window.location.pathname !== target) {
+        window.location.replace(target);
+      }
+    })();
+  </script>
+</body>
+</html>

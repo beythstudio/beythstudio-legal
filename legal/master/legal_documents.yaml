@@ -409,7 +409,7 @@ documents:
       en: |-
         # Specified Commercial Transactions Act (Japan)
         
-        Last updated: 29 Oct 2025
+        Last updated: 25 Aug 2025
         
         | Item | Details |
         | --- | --- |
@@ -417,7 +417,10 @@ documents:
         | Responsible manager | Representative: Takuya Hatanaka |
         | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
         | Contact | Email: support@beythstudio.com (support is handled by email only) |
-        | Price | Listed inside the app (e.g. ¥360 per month / ¥3,600 per year) |
+        | Telephone | Provided upon request without delay. Please reach out via email first. |
+        | Business hours / support window | Weekdays 10:00–18:00 (JST), excluding weekends, national holidays, and year-end/New Year closures |
+        | Services offered | “Tonight?” mobile application subscription (digital content) |
+        | Price | Displayed on the App Store / Google Play purchase screen in your local currency. Amounts may change depending on store pricing and taxes. |
         | Additional fees | Network charges or carrier fees paid by the customer |
         | Payment method | App Store / Google Play billing |
         | Payment timing | According to each store’s billing rules (charge at purchase, auto-renew onwards) |
@@ -428,7 +431,7 @@ documents:
       ja: |-
         # 特定商取引法に基づく表示
         
-        最終更新日：2025-10-29
+        最終更新日：2025-08-25
         
         | 項目 | 内容 |
         | --- | --- |
@@ -436,7 +439,10 @@ documents:
         | 運営責任者 | 代表　Takuya Hatanaka |
         | 所在地 | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
         | 連絡先 | メール：support@beythstudio.com（メールのみで対応しています） |
-        | 販売価格 | アプリ内に表示（例：月額¥360 / 年額¥3,600） |
+        | 電話番号 | ご請求いただいた場合に、遅滞なく開示いたします。通常のお問い合わせはメールで承ります。 |
+        | 営業時間・問い合わせ対応時間 | 平日10:00〜18:00（日本時間） ※土日祝・年末年始を除く |
+        | 提供サービス | モバイルアプリ「Tonight?」サブスクリプション（デジタルコンテンツ） |
+        | 販売価格 | アプリ内および各ストアの購入画面に税込価格を表示します。通貨・地域により金額が変動します。 |
         | 代金以外の必要料金 | インターネット接続に伴う通信料等（利用者負担） |
         | 支払方法 | App Store / Google Play の各決済手段 |
         | 支払時期 | 各ストアの定める課金タイミング（購入時点、以後自動更新あり） |
@@ -444,3 +450,32 @@ documents:
         | 解約・キャンセル | 各ストアのサブスクリプション管理からいつでも解約可能。解約しても当該期間終了日までは利用可。途中解約による日割り返金はありません。 |
         | 返品・返金について | デジタル商品の性質上返品は不可。ストア規約に基づき返金を申請できます。 |
         | 動作環境 | 対応OS／バージョンをアプリストアに記載 |
+
+  - id: outbound_data
+    locales:
+      en: |-
+        # Outbound Data & Third-Party Sharing
+
+        Last updated: 25 Aug 2025
+
+        Tonight? shares limited information with third-party providers to operate and improve the service. We disclose these integrations here for transparency.
+
+        | Provider | Purpose | Data shared |
+        | --- | --- | --- |
+        | Firebase Analytics (Google LLC) | Measure app usage trends and diagnose crashes | App usage events, device information, installation identifiers (non-identifiable) |
+        | Google AdMob (Google LLC) | Deliver ads and measure performance | Advertising identifier, coarse interaction metrics |
+
+        We only transmit the minimum data required, and never sell personal information. You can review additional details in the Privacy Policy and disable analytics or ads from your device settings where supported.
+      ja: |-
+        # 利用者情報の外部送信ポリシー
+
+        最終更新日：2025-08-25
+
+        Tonight? では、サービスの提供および品質改善のために最小限の利用者情報を外部サービスへ送信します。連携先と目的を以下に開示します。
+
+        | 提供者 | 目的 | 送信される情報 |
+        | --- | --- | --- |
+        | Firebase Analytics（Google LLC） | アプリ利用状況の把握とクラッシュ調査 | アプリの利用イベント、端末情報、インストール識別子（特定不可能な形式） |
+        | Google AdMob（Google LLC） | 広告配信と効果測定 | 広告ID、利用状況の統計的指標 |
+
+        これらの情報は必要最小限に限定しており、個人情報を販売することはありません。詳細はプライバシーポリシーをご確認いただき、端末設定等で解析や広告を制限することも可能です。

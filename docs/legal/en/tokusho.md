@@ -6,7 +6,7 @@ permalink: /legal/en/tokusho/
 ---
 # Specified Commercial Transactions Act (Japan)
 
-Last updated: 29 Oct 2025
+Last updated: 25 Aug 2025
 
 | Item | Details |
 | --- | --- |
@@ -14,7 +14,10 @@ Last updated: 29 Oct 2025
 | Responsible manager | Representative: Takuya Hatanaka |
 | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
 | Contact | Email: support@beythstudio.com (support is handled by email only) |
-| Price | Listed inside the app (e.g. ¥360 per month / ¥3,600 per year) |
+| Telephone | Provided upon request without delay. Please reach out via email first. |
+| Business hours / support window | Weekdays 10:00–18:00 (JST), excluding weekends, national holidays, and year-end/New Year closures |
+| Services offered | “Tonight?” mobile application subscription (digital content) |
+| Price | Displayed on the App Store / Google Play purchase screen in your local currency. Amounts may change depending on store pricing and taxes. |
 | Additional fees | Network charges or carrier fees paid by the customer |
 | Payment method | App Store / Google Play billing |
 | Payment timing | According to each store’s billing rules (charge at purchase, auto-renew onwards) |
