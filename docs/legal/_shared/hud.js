@@ -1,22 +1,29 @@
 const $ver = document.getElementById('ver');
 const $hud = document.querySelector('.prism-hud');
 
+function setAriaPressed(groupSelector, activeAttr, activeValue){
+  const btns = $hud.querySelectorAll(groupSelector);
+  btns.forEach(b=>{
+    const val = b.getAttribute(activeAttr);
+    b.setAttribute('aria-pressed', String(val===activeValue));
+  });
+}
+
 async function initVersions() {
   try {
     const res = await fetch('/legal/versions.json', { credentials: 'same-origin' });
     const all = await res.json();
-    const slug = 'privacy';
+    const slug = (location.pathname.split('/').filter(Boolean).pop()||'privacy');
     const meta = all[slug] || { latest: 'latest', versions: [] };
     $ver.innerHTML = '';
-    for (const v of meta.versions) {
+    for (const v of (meta.versions||[])) {
       const opt = document.createElement('option');
-      opt.value = v;
-      opt.textContent = v;
+      opt.value = v; opt.textContent = v;
       $ver.appendChild(opt);
     }
     const qs = new URLSearchParams(location.search);
     const cur = qs.get('v') || meta.latest;
-    if (cur && meta.versions.includes(cur)) $ver.value = cur;
+    if (cur && meta.versions && meta.versions.includes(cur)) $ver.value = cur;
     $ver.addEventListener('change', ()=>{
       const s = new URLSearchParams(location.search);
       s.set('v', $ver.value);
@@ -26,6 +33,12 @@ async function initVersions() {
 }
 
 function wireHudToggles() {
+  const qs = new URLSearchParams(location.search);
+  const mode = (qs.get('mode')||'legal');
+  const hl = (qs.get('hl')||'ja');
+  setAriaPressed('[data-mode]', 'data-mode', mode);
+  setAriaPressed('[data-hl]', 'data-hl', hl);
+
   $hud?.addEventListener('click', (ev)=>{
     const t = ev.target;
     if (t.matches('[data-mode]')) {
@@ -35,9 +48,9 @@ function wireHudToggles() {
       location.search = s.toString();
     }
     if (t.matches('[data-hl]')) {
-      const hl = t.getAttribute('data-hl');
+      const lang = t.getAttribute('data-hl');
       const s = new URLSearchParams(location.search);
-      s.set('hl', hl);
+      s.set('hl', lang);
       location.search = s.toString();
     }
   });
