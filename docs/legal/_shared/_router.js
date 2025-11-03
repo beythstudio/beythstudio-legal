@@ -6,7 +6,6 @@ const mode = (qs.get('mode') || localStorage.getItem('mode') || 'legal').toLower
 localStorage.setItem('hl', hl);
 localStorage.setItem('mode', mode);
 
-// derive slug from /legal/<slug>/ path
 function currentSlug(){
   const parts = location.pathname.split('/').filter(Boolean);
   const i = parts.indexOf('legal');
@@ -15,7 +14,7 @@ function currentSlug(){
 }
 const slug = currentSlug();
 
-const src = (lang) => `/legal/${lang}/${slug}/index.html`;// expected localized document
+const src = (lang) => `/legal/${lang}/${slug}/index.html`;
 const $viewport = document.getElementById('viewport');
 
 async function loadDoc(lang) {
@@ -28,10 +27,10 @@ async function loadDoc(lang) {
     const article = tpl.content.querySelector('article,[data-prism-article]');
     return article || tpl.content;
   } catch (e) {
-    // graceful fallback: link to old tonight pages if present
     const wrap = document.createElement('section');
     wrap.innerHTML = `<p>Failed to load localized content. Open legacy pages: 
       <a href="/${slug}/tonight/">${slug}/tonight</a>
+      ${slug==='outbound-data' ? '(external-data-policy)' : ''}
     </p>`;
     return wrap;
   }
@@ -60,8 +59,15 @@ async function mountCompare() {
 
 (async function init(){
   try {
-    if (mode === 'compare') await mountCompare();
-    else mountSingle(await loadDoc(hl), hl);
+    if (mode === 'compare') { await mountCompare(); }
+    else {
+      const art = await loadDoc(hl);
+      mountSingle(art, hl);
+      if (mode === 'plain') {
+        const mod = await import('./plain.js');
+        mod.applyPlainMode($viewport);
+      }
+    }
   } catch (e) {
     console.error(e);
     $viewport.innerHTML = `<p>Failed to load document for slug: ${slug}.` +
