@@ -3,25 +3,35 @@ export async function renderExternalDataMap(){
   container.className = 'external-data-map';
   const main = document.getElementById('viewport');
   (main?.parentNode || document.body).appendChild(container);
+  async function renderFallback(){
+    try{
+      const r = await fetch('/legal/data/external-data.fallback.html', { credentials: 'same-origin' });
+      if (!r.ok) return;
+      const html = await r.text();
+      container.innerHTML = html;
+    }catch(e){ console.warn('fallback load failed', e); }
+  }
   try {
     const res = await fetch('/legal/data/external-data.json', { credentials: 'same-origin' });
+    if (!res.ok) { await renderFallback(); return; }
     const data = await res.json();
     const h2 = document.createElement('h2'); h2.textContent = 'External Data Map';
     container.appendChild(h2);
-    (data.services||[]).forEach(svc=>{
+    (data.services||[]).forEach(function(svc){
       const det = document.createElement('details');
       const sum = document.createElement('summary');
-      sum.textContent = `${svc.id} — ${svc.provider}`;
+      sum.textContent = (svc.id||'') + ' — ' + (svc.provider||'');
       det.appendChild(sum);
       const ul = document.createElement('ul');
-      const liPurpose = document.createElement('li'); liPurpose.textContent = `purpose: ${svc.purpose||''}`; ul.appendChild(liPurpose);
-      const liTrig = document.createElement('li'); liTrig.textContent = `triggers: ${(svc.triggers||[]).join(', ')}`; ul.appendChild(liTrig);
-      const liData = document.createElement('li'); liData.textContent = `data: ${(svc.data||[]).join(', ')}`; ul.appendChild(liData);
-      if (svc.optout) { const liOpt = document.createElement('li'); liOpt.textContent = `opt-out: ${svc.optout}`; ul.appendChild(liOpt);}
+      function item(label,val){ const li=document.createElement('li'); li.textContent = label+': '+val; return li; }
+      ul.appendChild(item('purpose', svc.purpose||''));
+      ul.appendChild(item('triggers', (svc.triggers||[]).join(', ')));
+      ul.appendChild(item('data', (svc.data||[]).join(', ')));
+      if (svc.optout) ul.appendChild(item('opt-out', svc.optout));
       det.appendChild(ul);
       container.appendChild(det);
     });
-  } catch(e){ console.warn('external-data.json load failed', e); }
+  } catch(e){ console.warn('external-data.json load failed', e); await renderFallback(); }
 }
 
 renderExternalDataMap();
