@@ -14,13 +14,13 @@
   <nav class="prism-hud" aria-label="Policy HUD">
     <span class="app">Tonight</span>
     <div class="seg">
-      <button data-mode="plain">Plain</button>
-      <button data-mode="legal" aria-pressed="true">Legal</button>
-      <button data-mode="compare">Compare</button>
+      <a role="button" data-mode="plain"   href="?mode=plain">Plain</a>
+      <a role="button" data-mode="legal"   href="?mode=legal" aria-pressed="true">Legal</a>
+      <a role="button" data-mode="compare" href="?mode=compare">Compare</a>
     </div>
     <div class="seg">
-      <button data-hl="ja" aria-pressed="true">日本語</button>
-      <button data-hl="en">English</button>
+      <a role="button" data-hl="ja" href="?hl=ja" aria-pressed="true">日本語</a>
+      <a role="button" data-hl="en" href="?hl=en">English</a>
     </div>
     <div class="seg">
       <label>Version</label>
@@ -35,6 +35,13 @@
   </noscript>
   <main id="viewport" aria-live="polite"></main>
   <script type="module" src="../_shared/_router.js"></script>
-  <script type="module">import { bootHudEnhancements } from '../_shared/hud.js'; bootHudEnhancements();</script>
+  <script type="module">
+    import { bootHudEnhancements } from '../_shared/hud.js';
+    import '../_shared/external.js';
+    import { applyDiffHighlight } from '../_shared/diff.js';
+    bootHudEnhancements();
+    const v = new URLSearchParams(location.search).get('v') || 'latest';
+    applyDiffHighlight('privacy', v);
+  </script>
 </body>
 </html>
