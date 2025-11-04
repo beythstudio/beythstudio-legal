@@ -5,7 +5,7 @@ Last updated: 25 Aug 2025
 | Item | Details |
 | --- | --- |
 | Merchant | BEYTH STUDIO |
-| Responsible manager | Representative: Takuya Hatanaka |
+| Responsible manager | Representative: 畑中 拓哉 (Takuya Hatanaka) |
 | Address | 1841-81 Sueda, Iwatsuki-ku, Saitama-shi, Saitama, Japan |
 | Contact | Email: support@beythstudio.com (support is handled by email only) |
 | Telephone | Provided upon request without delay. Please reach out via email first. |
