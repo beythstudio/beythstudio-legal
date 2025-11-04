@@ -2,6 +2,7 @@
 layout: none
 permalink: /legal/terms/
 ---
+
 <!doctype html>
 <html lang="ja">
 <head>
@@ -9,7 +10,7 @@ permalink: /legal/terms/
   <title>Terms | Legal Prism</title>
   <meta name="robots" content="noindex,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../_shared/prism.css" rel="stylesheet">
+  <link href="../shared/reader.css" rel="stylesheet">
   <link rel="alternate" hreflang="ja" href="/legal/ja/terms/">
   <link rel="alternate" hreflang="en" href="/legal/en/terms/">
   <link rel="alternate" hreflang="x-default" href="/legal/terms/">
@@ -17,35 +18,18 @@ permalink: /legal/terms/
 <body>
   <nav class="prism-hud" aria-label="Policy HUD">
     <span class="app">Tonight</span>
-    <div class="seg">
-      <button data-mode="plain">Plain</button>
-      <button data-mode="legal" aria-pressed="true">Legal</button>
-      <button data-mode="compare">Compare</button>
-    </div>
-    <div class="seg">
-      <button data-hl="ja" aria-pressed="true">日本語</button>
-      <button data-hl="en">English</button>
-    </div>
-    <div class="seg">
-      <label>Version</label>
-      <select id="ver"></select>
+    <div class="seg" id="langSeg">
+      <a role="button" data-hl="ja" href="?hl=ja" aria-pressed="true">日本語</a>
+      <a role="button" data-hl="en" href="?hl=en">English</a>
     </div>
   </nav>
   <noscript>
-    <p>JavaScriptが無効です。言語を選んでください：
+    <p>JavaScriptが無効です。言語ページへ：
       <a href="/legal/ja/terms/">日本語</a> /
       <a href="/legal/en/terms/">English</a>
     </p>
   </noscript>
-  <main id="viewport" aria-live="polite"></main>
-  <script type="module" src="../_shared/_router.js"></script>
-  <script type="module">
-    import { bootHudEnhancements } from '../_shared/hud.js';
-    import '../_shared/external.js';
-    import { applyDiffHighlight } from '../_shared/diff.js';
-    bootHudEnhancements();
-    const v = new URLSearchParams(location.search).get('v') || 'latest';
-    applyDiffHighlight('terms', v);
-  </script>
+  <main id="viewport"></main>
+  <script type="module" src="../shared/router.js"></script>
 </body>
 </html>
