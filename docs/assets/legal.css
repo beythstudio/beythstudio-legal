@@ -1,0 +1,147 @@
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: color-mix(in srgb, Canvas 98%, CanvasText 4%);
+  color: color-mix(in srgb, CanvasText 94%, Canvas 6%);
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+}
+
+.prism-hud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+  color: inherit;
+  box-shadow: 0 10px 30px color-mix(in srgb, CanvasText 8%, transparent);
+  margin-bottom: 24px;
+}
+
+.prism-hud .app {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.prism-hud .seg {
+  display: inline-flex;
+  gap: 8px;
+}
+
+.prism-hud a[role='button'] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.prism-hud a[role='button'][aria-pressed='true'] {
+  background: color-mix(in srgb, CanvasText 18%, transparent);
+  color: inherit;
+  border-color: color-mix(in srgb, CanvasText 22%, transparent);
+  font-weight: 600;
+}
+
+.prism-hud a[role='button']:not([aria-pressed='true']) {
+  background: color-mix(in srgb, Canvas 96%, CanvasText 4%);
+  color: inherit;
+  border-color: color-mix(in srgb, CanvasText 12%, transparent);
+}
+
+.prism-hud a[role='button']:focus-visible {
+  outline: 2px solid color-mix(in srgb, CanvasText 30%, transparent);
+  outline-offset: 2px;
+}
+
+noscript {
+  display: block;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: color-mix(in srgb, Canvas 96%, CanvasText 6%);
+  margin-bottom: 24px;
+}
+
+#viewport {
+  display: block;
+  width: 100%;
+}
+
+.prism-frame {
+  width: 100%;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px color-mix(in srgb, CanvasText 12%, transparent);
+  background: Canvas;
+}
+
+.lp-page-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.lp-page-intro h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  color: inherit;
+}
+
+.lp-subtabs {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.lp-subtab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  background: color-mix(in srgb, Canvas 96%, CanvasText 4%);
+  color: inherit;
+  border: 1px solid color-mix(in srgb, CanvasText 12%, transparent);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.lp-subtab.is-active,
+.lp-subtab[aria-current='page'] {
+  background: color-mix(in srgb, CanvasText 18%, transparent);
+  border-color: color-mix(in srgb, CanvasText 22%, transparent);
+  font-weight: 600;
+}
+
+.lp-subtab:focus-visible {
+  outline: 2px solid color-mix(in srgb, CanvasText 30%, transparent);
+  outline-offset: 2px;
+}
+
+.lp-version {
+  font-size: 0.85rem;
+  color: color-mix(in srgb, CanvasText 70%, Canvas 30%);
+}
