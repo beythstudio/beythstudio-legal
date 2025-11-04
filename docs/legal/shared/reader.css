@@ -1,0 +1,26 @@
+:root { color-scheme: light dark; }
+html { -webkit-text-size-adjust: 100%; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif; line-height: 1.7; margin: 2rem auto; padding: 0 1rem; max-width: 78ch; }
+
+h1, h2, h3 { line-height: 1.25; margin: 2rem 0 0.75rem; }
+h1 { font-size: clamp(1.8rem, 2.2vw, 2.2rem); }
+h2 { font-size: clamp(1.4rem, 2vw, 1.6rem); }
+h3 { font-size: clamp(1.2rem, 1.6vw, 1.3rem); }
+
+p, ul, ol, table, pre, blockquote { margin: 0.9rem 0; }
+ul, ol { padding-left: 1.2rem; }
+
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.95em; }
+pre { overflow: auto; padding: 0.75rem 1rem; border-radius: 0.5rem; background: color-mix(in srgb, currentColor 8%, transparent); }
+
+a { text-decoration: underline; text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+hr { border: none; height: 1px; background: color-mix(in srgb, currentColor 20%, transparent); margin: 2rem 0; }
+
+blockquote { padding-left: 1rem; border-left: 4px solid color-mix(in srgb, currentColor 25%, transparent); color: color-mix(in srgb, currentColor 80%, transparent); }
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; overflow: hidden; }
+th, td { border: 1px solid color-mix(in srgb, currentColor 20%, transparent); padding: 0.5rem 0.6rem; text-align: left; }
+th { background: color-mix(in srgb, currentColor 8%, transparent); }
