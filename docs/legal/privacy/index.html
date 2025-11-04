@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: /legal/privacy/
+---
 <!doctype html>
 <html lang="ja">
 <head>
@@ -5,44 +9,104 @@
   <title>Privacy Policy | Legal Prism</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex,follow" />
-  <!-- hreflang: 実体ページを案内 -->
-  <link rel="alternate" hreflang="ja" href="/legal/ja/privacy/">
-  <link rel="alternate" hreflang="en" href="/legal/en/privacy/">
-  <link rel="alternate" hreflang="x-default" href="/legal/privacy/">
-  <link href="../shared/prism.css" rel="stylesheet">
+  <link rel="alternate" hreflang="ja" href="/legal/ja/privacy/" />
+  <link rel="alternate" hreflang="en" href="/legal/en/privacy/" />
+  <link rel="alternate" hreflang="x-default" href="/legal/privacy/" />
+  <link rel="canonical" href="/legal/privacy/" />
+  <link rel="stylesheet" href="/legal/shared/reader.css" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: color-mix(in srgb, Canvas 98%, CanvasText 4%);
+      color: color-mix(in srgb, CanvasText 94%, Canvas 6%);
+    }
+    .prism-hud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 20px;
+      border-radius: 16px;
+      background: color-mix(in srgb, Canvas 92%, CanvasText 8%);
+      color: inherit;
+      box-shadow: 0 10px 30px color-mix(in srgb, CanvasText 8%, transparent);
+      margin-bottom: 24px;
+    }
+    .prism-hud .app {
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    .prism-hud .seg {
+      display: inline-flex;
+      gap: 8px;
+    }
+    .prism-hud a[role="button"] {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    }
+    .prism-hud a[role="button"][aria-pressed="true"] {
+      background: color-mix(in srgb, CanvasText 18%, transparent);
+      color: inherit;
+      border-color: color-mix(in srgb, CanvasText 22%, transparent);
+      font-weight: 600;
+    }
+    .prism-hud a[role="button"]:not([aria-pressed="true"]) {
+      background: color-mix(in srgb, Canvas 96%, CanvasText 4%);
+      color: inherit;
+      border-color: color-mix(in srgb, CanvasText 12%, transparent);
+    }
+    .prism-hud a[role="button"]:focus-visible {
+      outline: 2px solid color-mix(in srgb, CanvasText 30%, transparent);
+      outline-offset: 2px;
+    }
+    noscript {
+      display: block;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: color-mix(in srgb, Canvas 96%, CanvasText 6%);
+      margin-bottom: 24px;
+    }
+    #viewport {
+      display: block;
+      width: 100%;
+    }
+    .prism-frame {
+      width: 100%;
+      border: none;
+      border-radius: 18px;
+      box-shadow: 0 18px 40px color-mix(in srgb, CanvasText 12%, transparent);
+      background: Canvas;
+    }
+    @media (max-width: 600px) {
+      body { padding: 16px; }
+    }
+  </style>
+  <script defer src="/legal/shared/router.js"></script>
 </head>
 <body>
   <nav class="prism-hud" aria-label="Policy HUD">
     <span class="app">Tonight</span>
-
-    <div class="seg" id="modeSeg">
-      <!-- JS無効でも遷移できるようアンカー -->
-      <a role="button" data-mode="plain"   href="?mode=plain">Plain</a>
-      <a role="button" data-mode="legal"   href="?mode=legal">Legal</a>
-      <a role="button" data-mode="compare" href="?mode=compare">Compare</a>
-    </div>
-
     <div class="seg" id="langSeg">
-      <a role="button" data-hl="ja" href="?hl=ja">日本語</a>
+      <a role="button" data-hl="ja" href="?hl=ja" aria-pressed="true">日本語</a>
       <a role="button" data-hl="en" href="?hl=en">English</a>
     </div>
-
-    <div class="seg">
-      <label for="ver">Version</label>
-      <select id="ver" aria-label="Version"></select>
-    </div>
   </nav>
-
   <noscript>
-    <p>JavaScriptが無効です。言語ページへ直接どうぞ：
+    <p>JavaScriptが無効です。言語ページへ：
       <a href="/legal/ja/privacy/">日本語</a> /
       <a href="/legal/en/privacy/">English</a>
     </p>
   </noscript>
-
-  <div id="banner" hidden></div>
-  <main id="viewport" aria-live="polite"></main>
-
-  <script defer src="../shared/router.js"></script>
+  <main id="viewport"></main>
 </body>
 </html>
