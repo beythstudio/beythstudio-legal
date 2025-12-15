@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: 2025-10-29
+Last updated: 1 Dec 2025
 
 Tonight? ("the Service") is designed as a quiet space for people such as romantic partners, spouses, roommates, or close friends to share promises and exchange signals. We handle personal data with the minimum scope necessary to operate the experience.
 
