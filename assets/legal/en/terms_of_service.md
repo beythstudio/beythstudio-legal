@@ -1,6 +1,6 @@
 # Terms of Service
 
-Last updated: 29 Oct 2025
+Last updated: 1 Dec 2025
 
 Please read these terms before using Tonight? They apply to you and your pair partner.
 
