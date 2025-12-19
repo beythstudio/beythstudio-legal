@@ -2,7 +2,7 @@
 layout: default
 title: Terms of Service
 lang: en
-permalink: /legal/en/terms-of-service/
+permalink: /legal/en/terms/
 ---
 # Terms of Service
 

@@ -2,7 +2,7 @@
 layout: default
 title: Privacy Policy
 lang: en
-permalink: /legal/en/privacy-policy/
+permalink: /legal/en/privacy/
 ---
 # Privacy Policy
 

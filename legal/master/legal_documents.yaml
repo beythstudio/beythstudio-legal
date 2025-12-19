@@ -70,7 +70,7 @@ documents:
         ## 6. 再登録
         削除後もアプリを再インストールして新規登録できますが、過去のデータは復元できません。
 
-  - id: privacy_policy
+  - id: privacy
     locales:
       en: |-
         # Privacy Policy
@@ -289,7 +289,7 @@ documents:
         
         新しいプロダクトを公開した際は随時追記します。該当のガイドが見当たらない場合は、上記の基本コンタクト宛に詳細を添えてご連絡ください。
 
-  - id: terms_of_service
+  - id: terms
     locales:
       en: |-
         # Terms of Service
