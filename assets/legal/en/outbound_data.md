@@ -1,6 +1,6 @@
 # Outbound Data & Third-Party Sharing
 
-Last updated: 1 Dec 2025
+Last updated: 25 Aug 2025
 
 Tonight? shares limited information with third-party providers to operate and improve the service. We disclose these integrations here for transparency.
 

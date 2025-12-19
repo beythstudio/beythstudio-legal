@@ -6,7 +6,7 @@ permalink: /legal/en/terms-of-service/
 ---
 # Terms of Service
 
-Last updated: 29 Oct 2025
+Last updated: 1 Dec 2025
 
 Please read these terms before using Tonight? They apply to you and your pair partner.
 
@@ -35,6 +35,7 @@ Do not:
 1. The Tonight plan is offered on monthly and yearly cycles subject to the App Store / Google Play billing terms.
 2. Disclosures regarding price, renewal cycle, auto-renewal, cancellation, and trial conditions are shown before purchase.
 3. Refund requests follow the policies of each store.
+4. **Free Trial**: The 14-day free trial is managed within the app and does not involve automatic billing. When the trial ends, you will return to the FREE plan. No payment is charged unless you actively subscribe to the Tonight plan.
 
 ## 6. Pair Dissolution and Data
 - When either member leaves the pair, records tied to that pair are deleted for both parties.
