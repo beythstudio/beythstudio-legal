@@ -53,9 +53,9 @@ We apply transport encryption, access controls, and log monitoring to keep data 
 
 Some infrastructure is hosted outside of your jurisdiction. We ensure the same level of protection by relying on appropriate safeguards and contractual clauses.
 
-## 8. Children’s Privacy
+## 8. Children's Privacy
 
-The Service can be used by people of all ages. If you are under 18, please consult a parent or guardian when using the Service.
+The Service is intended for users aged 13 and above. If you are under 18, please consult a parent or guardian when using the Service.
 
 ## 9. Child Safety
 

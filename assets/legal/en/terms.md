@@ -10,7 +10,7 @@ These Terms govern all use of the Service. We may publish supplemental guideline
 ## 2. Registration
 1. When linking an account, provide accurate and up-to-date information.
 2. Pairing begins once both parties complete the 6-digit code ritual and simultaneous tap.
-3. The Service can be used by people of all ages. If you are under 18, please use the Service with a parent or guardian's guidance.
+3. The Service is intended for users aged 13 and above. If you are under 18, please use the Service with a parent or guardian's guidance.
 
 ## 3. Account Security
 - Keep login credentials (e.g., Google Sign-In) secure.
