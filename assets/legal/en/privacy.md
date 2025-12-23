@@ -51,11 +51,22 @@ Some infrastructure is hosted outside of your jurisdiction. We ensure the same l
 
 The Service can be used by people of all ages. If you are under 18, please consult a parent or guardian when using the Service.
 
-## 9. Updates
+## 9. Child Safety
+
+Tonight? and BEYTH STUDIO are committed to child safety. We strictly prohibit:
+
+- Child Sexual Abuse Material (CSAM) of any kind
+- Content that sexually exploits or endangers children
+- Any activity that promotes, encourages, or facilitates the sexual exploitation or abuse of minors
+- Grooming or any inappropriate contact with minors
+
+We actively monitor for violations and will immediately terminate accounts that violate this policy. All confirmed or suspected instances of child exploitation are reported to the appropriate authorities, including the National Center for Missing & Exploited Children (NCMEC) and relevant law enforcement agencies.
+
+## 10. Updates
 
 We will announce material updates inside the app and on this page. Significant changes may also be communicated by email or push notification.
 
-## 10. Contact
+## 11. Contact
 
 Support mailbox: <support@beythstudio.com>
 We handle all enquiries exclusively via email.

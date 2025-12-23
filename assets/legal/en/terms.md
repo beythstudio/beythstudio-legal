@@ -24,6 +24,8 @@ Do not:
 3. Interfere with the operation of the Service
 4. Reverse engineer, hack, or tamper with data
 5. Infringe upon any third party's rights
+6. Create, distribute, or possess Child Sexual Abuse Material (CSAM)
+7. Engage in any activity that sexually exploits, endangers, or grooms minors
 
 ## 5. Paid Plans and Billing
 1. The Tonight plan is offered on monthly and yearly cycles subject to the App Store / Google Play billing terms.
