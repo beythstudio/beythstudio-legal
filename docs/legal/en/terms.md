@@ -10,6 +10,18 @@ Last updated: 1 Dec 2025
 
 Please read these terms before using Tonight? provided by BEYTH STUDIO. They apply to you and your pair partner.
 
+## Table of Contents
+1. [Scope](#1-scope)
+2. [Registration](#2-registration)
+3. [Account Security](#3-account-security)
+4. [Prohibited Conduct](#4-prohibited-conduct)
+5. [Paid Plans and Billing](#5-paid-plans-and-billing)
+6. [Pair Dissolution and Data](#6-pair-dissolution-and-data)
+7. [Suspension or Termination](#7-suspension-or-termination)
+8. [Disclaimer](#8-disclaimer)
+9. [Changes to the Terms](#9-changes-to-the-terms)
+10. [Governing Law & Jurisdiction](#10-governing-law--jurisdiction)
+
 ## 1. Scope
 These Terms govern all use of the Service. We may publish supplemental guidelines; those documents form part of these Terms.
 
