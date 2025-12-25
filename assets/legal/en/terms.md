@@ -8,7 +8,7 @@ Please read these terms before using Tonight? provided by BEYTH STUDIO. They app
 1. [Scope](#1-scope)
 2. [Registration](#2-registration)
 3. [Account Security](#3-account-security)
-4. [Prohibited Conduct](#4-prohibited-conduct)
+4. [Prohibited Conduct (Child Safety / CSAE)](#4-prohibited-conduct)
 5. [Paid Plans and Billing](#5-paid-plans-and-billing)
 6. [Pair Dissolution and Data](#6-pair-dissolution-and-data)
 7. [Suspension or Termination](#7-suspension-or-termination)
