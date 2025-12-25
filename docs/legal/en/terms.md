@@ -8,7 +8,7 @@ permalink: /legal/en/terms/
 
 Last updated: 1 Dec 2025
 
-Please read these terms before using Tonight? They apply to you and your pair partner.
+Please read these terms before using Tonight? provided by BEYTH STUDIO. They apply to you and your pair partner.
 
 ## 1. Scope
 These Terms govern all use of the Service. We may publish supplemental guidelines; those documents form part of these Terms.
